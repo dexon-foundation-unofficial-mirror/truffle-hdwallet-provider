@@ -1,5 +1,5 @@
 {
-  "name": "truffle-hdwallet-provider",
+  "name": "@dexon-foundation/truffle-hdwallet-provider",
   "version": "0.0.7-beta.0",
   "description": "HD Wallet-enabled Web3 provider",
   "main": "index.js",
@@ -32,7 +32,7 @@
     "web3-provider-engine": "^14.0.5"
   },
   "devDependencies": {
-    "ganache-core": "^2.1.0",
+    "@dexon-foundation/ganache-core": "^2.1.0",
     "mocha": "^5.1.1"
   },
   "peerDependencies": {

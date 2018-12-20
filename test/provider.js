@@ -1,4 +1,4 @@
-const Ganache = require('ganache-core');
+const Ganache = require('@dexon-foundation/ganache-core');
 const assert = require('assert');
 const WalletProvider = require('../index.js');
 const EthUtil = require('ethereumjs-util');
@@ -26,16 +26,16 @@ describe("HD Wallet Provider", function(done) {
 
   it('provides for a mnemonic', function(done){
     const truffleDevAccounts = [
-      "0x627306090abab3a6e1400e9345bc60c78a8bef57",
-      "0xf17f52151ebef6c7334fad080c5704d77216b732",
-      "0xc5fdf4076b8f3a5357c5e395ab970b5b54098fef",
-      "0x821aea9a577a9b44299b9c15c88cf3087f3b5544",
-      "0x0d1d4e623d10f9fba5db95830f7d3839406c6af2",
-      "0x2932b7a2355d6fecc4b5c0b6bd44cc31df247a2e",
-      "0x2191ef87e392377ec08e7c08eb105ef5448eced5",
-      "0x0f4f2ac550a1b4e2280d04c21cea7ebd822934b5",
-      "0x6330a553fc93768f612722bb8c2ec78ac90b3bbc",
-      "0x5aeda56215b167893e80b4fe645ba6d5bab767de"
+      "0x852dcb4fc2abac2e5d1e641fb0cc61f3d0017491",
+      "0x0b1e1d60249144a13e7c1da3a21ebe84b07975ed",
+      "0xb57a0f13f3ecce715818f78aab1e11cd6935e43e",
+      "0x005f3c64df1405c2d7a2be10ee9e7dca85fc525e",
+      "0x6008b748473dc0e050d5de8edd348f74fe974d3f",
+      "0xaff3a39f8c6480717fb77726cbfffe3235894273",
+      "0x2e30cdd294b6451884a54eb8080d5936bcfe316d",
+      "0xf56215c1adda35f947ce871343e2be40cf3de63f",
+      "0xfc8ce10b93f1b7a374ddc0161d336abb87034100",
+      "0x481921c27af48ab3102291bd9af06678ef4dc2d6"
     ];
 
     const mnemonic = 'candy maple cake sugar pudding cream honey rich smooth crumble sweet treat';

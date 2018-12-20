@@ -24,7 +24,7 @@ function HDWalletProvider(
   address_index=0,
   num_addresses=1,
   shareNonce=true,
-  wallet_hdpath="m/44'/60'/0'/0/"
+  wallet_hdpath="m/44'/237'/0'/0/"
 ) {
 
   if (mnemonic && mnemonic.indexOf(' ') === -1 || Array.isArray(mnemonic)) {
